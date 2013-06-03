@@ -8,7 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{E709A928
 		.gitignore = .gitignore
 		package.cmd = package.cmd
 		readme.txt = readme.txt
-		restsharp.nuspec = restsharp.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp.Net4", "RestSharp.Net4\RestSharp.Net4.csproj", "{5FF943A5-260F-4042-B4CE-C4977BAD4EBB}"
