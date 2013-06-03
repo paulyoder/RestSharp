@@ -40,6 +40,12 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <DocumentationFile>bin\Release\RestSharp.IntegrationTests.xml</DocumentationFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>RestSharp.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -80,6 +86,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="RestSharp.snk" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RestSharp\RestSharp.csproj">
